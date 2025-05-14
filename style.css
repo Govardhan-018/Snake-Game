@@ -37,13 +37,13 @@ body {
     height: 40rem;
     width: 36rem;
     background-color: black;
-    box-shadow: 0 0 10px violet;
+    box-shadow: 0 0 10px rgb(238, 110, 63);
 }
 
 .score-container {
     height: 4rem;
     width: 36rem;
-    background-color: violet;
+    background-color: rgb(238, 110, 63);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,7 +66,7 @@ body {
 }
 
 .head {
-    background-color: rgb(225, 16, 225);
+    background-color: orangered;
 }
 
 .h {
@@ -89,31 +89,4 @@ button {
 
 .h2 {
     font-size: 40px;
-}
-
-@media (max-width:600px) {
-    .container {
-        width: 20rem;
-        background-color: black;
-        box-shadow: 0 0 10px violet;
-    }
-
-    .score-container {
-        height: 6rem;
-        width: 20rem;
-        background-color: violet;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        font-size: larger;
-        font-family: "Caveat", cursive;
-    }
-
-    .game-container {
-        height: 54rem;
-        width: 20rem;
-        display: grid;
-        grid-template-columns: repeat(25, 1fr);
-        grid-template-rows: repeat(25, 1fr);
-    }
 }
